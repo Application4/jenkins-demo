@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsDemoApplication {
 
+    @GetMapping
+    public String test(){
+        return "wowww";
+    }
+
 
     @GetMapping("/greetings/{name}")
     public String greetings(@PathVariable String name) {
