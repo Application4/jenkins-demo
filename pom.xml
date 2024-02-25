@@ -55,7 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>jenkins-demo</finalName>
+		<finalName>jenkinsDemo</finalName>
 	</build>
 
 </project>
